@@ -8,7 +8,7 @@ window.onload = () => {
       },
       "https://oauth-master-class-jet.vercel.app",
     )
-      .then(({ handler }) => handler())
+   .then(({ handler }) => handler())
       .then(async (data) => {
         const result = await fetchYandexData(data.access_token);
 
